@@ -1,7 +1,3 @@
-@SETLOCAL
-@IF EXIST "%~dp0\node.exe" (
-  "%~dp0\node.exe"  "%~dp0\node_modules\corepack\dist\corepack.js" %*
-) ELSE (
-  @SET PATHEXT=%PATHEXT:;.JS;=;%
-  node  "%~dp0\node_modules\corepack\dist\corepack.js" %*
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:920630a1d1ec47aedea7345e3c868ecdc07e191373497bbf47fbbf5942fbad4f
+size 218
